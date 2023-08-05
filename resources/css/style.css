@@ -10,10 +10,21 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+    width: 100%;
 }
 
 body {
     margin: 0px;
+}
+
+main {
+    position: relative;
+    top: 64px;
 }
 
 #container01 {
@@ -39,7 +50,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
 }
 
 #container11 {
@@ -120,7 +131,7 @@ body {
 }
 
 #section3 {
-    background-color: gray;
+    background-color: rgb(200, 200, 200);
     padding: 0px 0px 16px 0px;
 }
 
@@ -227,4 +238,33 @@ body {
 .container4212 p {
     padding: 4px 0px;
     margin: 0px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 16px;
+    border-top: 2px solid rgb(0, 0, 0);
+    position: relative;
+    top: 64px;
+}
+
+#container03 {
+    padding-left: 24px;
+}
+
+#container04 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 24px;
+    width: auto;
+}
+
+#container04 h4 {
+    margin: auto 16px;
 }

@@ -10,11 +10,14 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 64px;
-    background-color: orange;
+}
+
+body {
+    margin: 0px;
 }
 
 #container01 {
-    margin-left: 24px;
+    padding-left: 24px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -24,7 +27,7 @@ header {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    margin-right: 24px;
+    padding-right: 24px;
     width: auto;
 }
 
@@ -60,4 +63,168 @@ header {
     margin-top: 12px;
     margin-bottom: 12px;
     width: 80%;
+}
+
+#section2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+#container21 {
+    flex: 1 1 60%;
+    padding-bottom: 8px;
+}
+
+#container21 img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+#container21 h1,
+#container21 p {
+    padding: 0px 24px 24px 24px;
+}
+
+#container22 {
+    flex: 1 1 40%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container221 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container2211 {
+    flex: 1 1 35%;
+}
+
+.container2211 img {
+    width: 100%;
+    padding: 16px;
+}
+
+.container2212 {
+    flex: 1 1 65%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.container2212 h4,
+.container2212 p {
+    padding: 4px 0px;
+    margin: 0px;
+}
+
+#section3 {
+    background-color: gray;
+    padding: 0px 0px 16px 0px;
+}
+
+#section3 h1 {
+    text-align: center;
+    margin: 32px 0px 16px 0px;
+    padding-top: 32px;
+}
+
+#container31 {
+    margin: 0px 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.container311 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container3111 {
+    flex: 1 1;
+    background-color: white;
+    margin: 16px 16px;
+}
+
+.container3111 img {
+    width: 100%;
+}
+
+.container31112 {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 12px 16px;
+}
+
+.container31112 h4,
+.container31112 h5,
+.container31112 p {
+    margin: 4px 0px;
+}
+
+#section4 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: 0px 24px 32px 24px;
+}
+
+#section4 h1 {
+    text-align: center;
+    margin: 32px 0px;
+    width: 100%;
+    display: block;
+}
+
+#container41 {
+    flex: 1 1 60%;
+}
+
+#container41 video {
+    width: 100%;
+    padding: 0px 24px;
+}
+
+#container41 h4 {
+    padding: 24px 0px 8px 24px;
+}
+
+#container41 p {
+    padding-left: 24px;
+}
+
+#container42 {
+    flex: 1 1 40%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.container421 {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.container4211 {
+    flex: 1 1 35%;
+}
+
+.container4211 img {
+    width: 100%;
+    padding: 16px;
+}
+
+.container4212 {
+    flex: 1 1 65%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.container4212 h4,
+.container4212 p {
+    padding: 4px 0px;
+    margin: 0px;
 }

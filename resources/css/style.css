@@ -29,3 +29,10 @@ body {
     font-size: 21px;
     color: gray;
 }
+
+footer h3 {
+    text-align: right;
+    font-family: verdana;
+    font-size: 21px;
+    color: gray;
+}

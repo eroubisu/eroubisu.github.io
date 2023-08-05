@@ -36,3 +36,8 @@ footer h3 {
     font-size: 21px;
     color: gray;
 }
+
+img {
+    display: block;
+    margin: 0 auto;
+}
